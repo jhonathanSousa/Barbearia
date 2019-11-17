@@ -1,0 +1,1084 @@
+
+/* FORMATAÇÃO PARA SMARTPHONE */
+
+@media (max-width: 480px){
+
+/* FORMATAÇÃO DE CABECALHO */
+	
+.logo img{
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+
+/* FORMATAÇÃO DE MENU */
+
+.btn-menu{
+	margin: 25px 25px;
+	width: 56px;
+	height: 56px;
+	float: right;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background-color: #fdcb00;
+	border: none;
+}
+
+/*Formatação de Menu*/
+
+#menu{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0px;
+	left: 0px;
+}
+
+.btn-close{
+	font-size: 1.5em;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+	margin: 45px 45px;
+}
+
+#menu ul{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#menu li{
+	padding: 4.5%;
+}
+
+#menu li a{
+	font-size: 2em;
+	color: #fff;
+	padding: 3.5% 3%;
+}
+
+#menu li a:hover{
+	border: 1px solid #fdcb00;
+}
+
+/* SOBRE  */
+
+.banner{
+	max-width: 100%;
+}
+
+.title{
+	margin: 0 auto;
+	text-align: center;
+	padding: 80px 0 20px 0 ;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fdcb00;	
+	width: 100%;
+}
+
+.sobre-descricao{
+	margin: 50px 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #4d4d4f;
+}
+
+/* FORMATAÇÕES DE NOSSOS SERVIÇOS */
+
+.title-servicos{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #fdcb00;
+}
+
+.servicos{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.servicos  li{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	padding: 40px 20px;
+	box-sizing: border-box;
+}
+
+.title-produto{
+	margin-top:  10px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #444444;
+}
+
+/* FORMATAÇÃO ONDE FOMOS DESTAQUE */
+
+.fomos-destaque{
+	background-color: #eeeeee;
+}
+
+.destaque{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.jornal{
+	width: 100%;
+	max-width: 300px;
+}
+
+.fomos-destaque li{
+	display: block;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;	
+}
+
+/* FORMATAÇÃO DE FORM DE CONTATO */
+
+.fale-conosco{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 30px;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #444444;
+}
+
+/* FORMTAÇÃO DO FORM */
+
+#form-contato {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+label{
+	font-weight: bold;
+}
+
+input{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+textarea{
+	width: 100%;
+	display: block;
+	margin-top: 5px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+#btn{
+	width: 25%;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #fdcb00;
+	border: 1px solid #fdcb00;
+
+	color: #fff;
+}
+
+/* FORMATAÇÃO DE RODAPÉ */
+
+.rodape{
+	padding: 30px 20px;
+	background-color: #fdcb00;
+}
+
+.logo-rodape{
+	width: 100%;
+	max-width: 250px;
+	display: block;
+	margin: 0 auto;
+}	
+
+}
+
+/* */
+@media(min-width: 481px) and (max-width: 767px){
+/* FORMATAÇÃO DE CABECALHO */
+	
+.logo img{
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+
+/* FORMATAÇÃO DE MENU */
+
+.btn-menu{
+	margin: 25px 25px;
+	width: 56px;
+	height: 56px;
+	float: right;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background-color: #fdcb00;
+	border: none;
+}
+
+/*Formatação de Menu*/
+
+#menu{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0px;
+	left: 0px;
+}
+
+.btn-close{
+	font-size: 1.5em;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+	margin: 45px 45px;
+}
+
+#menu ul{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#menu li{
+	padding: 4.5%;
+}
+
+#menu li a{
+	font-size: 2em;
+	color: #fff;
+	padding: 3.5% 3%;
+}
+
+#menu li a:hover{
+	border: 1px solid #fdcb00;
+}
+
+/* SOBRE  */
+
+.banner{
+	max-width: 100%;
+}
+
+.title{
+	margin: 0 auto;
+	text-align: center;
+	padding: 80px 0px 20px 0px ;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fdcb00;	
+	width: 90%;
+}
+
+.sobre-descricao{
+	margin: 50px 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #4d4d4f;
+}
+
+/* FORMATAÇÕES DE NOSSOS SERVIÇOS */
+
+.title-servicos{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #fdcb00;
+}
+
+.servicos{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.servicos  li{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	padding: 40px 20px;
+	box-sizing: border-box;
+}
+
+.title-produto{
+	margin-top:  12px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #444444;
+}
+
+/* FORMATAÇÃO ONDE FOMOS DESTAQUE */
+
+.fomos-destaque{
+	background-color: #eeeeee;
+}
+
+.destaque{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.jornal{
+	width: 100%;
+	max-width: 300px;
+}
+
+.fomos-destaque li{
+	display: block;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;	
+}
+
+/* FORMATAÇÃO DE FORM DE CONTATO */
+
+.fale-conosco{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 30px;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #444444;
+}
+
+/* FORMTAÇÃO DO FORM */
+
+#form-contato {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+label{
+	font-weight: bold;
+}
+
+input{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+textarea{
+	width: 100%;
+	display: block;
+	margin-top: 5px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+#btn{
+	width: 25%;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #fdcb00;
+	border: 1px solid #fdcb00;
+
+	color: #fff;
+}
+
+/* FORMATAÇÃO DE RODAPÉ */
+
+.rodape{
+	padding: 30px 20px;
+	background-color: #fdcb00;
+}
+
+.logo-rodape{
+	width: 100%;
+	max-width: 250px;
+	display: block;
+	margin: 0 auto;
+}	
+
+}
+
+@media(min-width: 768px) and (max-width: 979px){
+
+/* FORMATAÇÃO DE CABEÇALHO */
+
+.cabecalho{
+	background-color: #fdcb00;
+}
+
+.logo img{
+	width: 100%;
+	max-width: 170px;
+}
+
+.caixa{
+	position: relative;
+	width: 	90%;
+	margin: 0 auto;
+}
+
+/* Formatação de menu */
+
+.btn-menu{
+	display: none;
+}
+
+.btn-close{
+	display: none;
+}
+
+#menu{
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+
+#menu li{
+	display: inline-block;
+	margin: 0 0 0 10px;
+}
+
+#menu a{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 5px;
+	transition: 0.5s;
+}
+
+#menu a:hover{
+	background-color: #000;
+	border-radius: 5px;
+}
+
+/* SOBRE  */
+
+.banner{
+	max-width: 100%;
+}
+
+.title{
+	margin: 0 auto;
+	text-align: center;
+	padding: 80px 0 20px 0 ;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fdcb00;	
+	width: 70%;
+}
+
+.sobre-descricao{
+	margin: 50px 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #4d4d4f;
+}
+
+/* FORMATAÇÕES DE NOSSOS SERVIÇOS */
+
+.title-servicos{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #fdcb00;
+}
+
+.servicos{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.servicos  li{
+	display: inline-block;
+	text-align: center;
+	width: 45%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 70px 20px;
+	box-sizing: border-box;
+}
+
+.title-produto{
+	margin-top:  10px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #444444;
+}
+
+/* FORMATAÇÃO ONDE FOMOS DESTAQUE */
+
+.fomos-destaque{
+	background-color: #eeeeee;
+}
+
+.destaque{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.jornal{
+	width: 100%;
+	max-width: 300px;
+}
+
+.fomos-destaque li{
+	display: block;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;	
+}
+
+
+/* FORMATAÇÃO DE FORM DE CONTATO */
+
+.fale-conosco{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 30px;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #444444;
+}
+
+.preencha-dados{
+	width: 80%;
+	margin: 0 auto;
+	color: #333333;
+}
+
+/* FORMTAÇÃO DO FORM */
+
+#form-contato {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+label{
+	font-weight: bold;
+}
+
+
+input{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+textarea{
+	width: 100%;
+	display: block;
+	margin-top: 5px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+#btn{
+	width: 20%;
+	height: 50px;
+	margin-top: 10px;
+	background-color: #fdcb00;
+	border: 1px solid #fdcb00;
+
+	color: #fff;
+}
+
+/* FORMATAÇÃO DE RODAPÉ */
+
+.rodape{
+	padding: 30px 20px;
+	background-color: #fdcb00;
+}
+
+.logo-rodape{
+	width: 100%;
+	max-width: 250px;
+	display: block;
+	margin: 0 auto;
+}		
+
+}
+
+@media(min-width: 980px) and (max-width: 1030px){
+/* FORMATAÇÃO DE CABEÇALHO */
+
+.cabecalho{
+	background-color: #fdcb00;
+	/* position: fixed; */
+}
+
+.logo img{
+	width: 100%;
+	max-width: 150px;
+}
+
+.caixa{
+	position: relative;
+	width: 	80%;
+	margin: 0 auto;
+}
+
+/* Formatação de menu */
+
+.btn-menu{
+	display: none;
+}
+
+.btn-close{
+	display: none;
+}
+
+#menu{
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+
+#menu li{
+	display: inline-block;
+	margin: 0 0 0 10px;
+}
+
+#menu a{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 5px;
+	transition: 0.5s;
+}
+
+#menu a:hover{
+	background-color: #000;
+	border-radius: 5px;
+}
+
+/* SOBRE  */
+
+.banner{
+	max-width: 100%;
+}
+
+.title{
+	margin: 0 auto;
+	text-align: center;
+	padding: 80px 0 20px 0 ;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fdcb00;
+	border-bottom: 1px #ccc solid;
+	width: 40%;
+    box-sizing: border-box;	
+}
+
+.sobre-descricao{
+	/* margin-top: 30px; */
+	margin: 50px 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #4d4d4f;
+}
+
+/* FORMATAÇÕES DE NOSSOS SERVIÇOS */
+
+.title-servicos{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #fdcb00;
+}
+
+.servicos{
+	width: 100%;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.servicos  li{
+	display: inline-block;
+	text-align: center;
+	width: 45%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 80px 20px;
+	box-sizing: border-box;
+}
+
+.title-produto{
+	margin-top:  10px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #444444;
+}
+
+/* FORMATAÇÃO ONDE FOMOS DESTAQUE */
+
+.fomos-destaque{
+	background-color: #eeeeee;
+}
+
+.destaque{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+.jornal{
+	width: 100%;
+	max-width: 200px;
+}
+
+.fomos-destaque li{
+	display: inline-block;
+	text-align: center;
+	width: 18%;
+	margin: 0 0.8%;
+	vertical-align: top;
+	padding: 80px 20px;
+	box-sizing: border-box;	
+}
+
+/* FORMATAÇÃO DE FORM DE CONTATO */
+
+.fale-conosco{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 30px;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #444444;
+}
+
+.preencha-dados{
+	width: 80%;
+	margin: 0 auto;
+	color: #333333;
+}
+
+/* FORMTAÇÃO DO FORM */
+
+#form-contato {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+label{
+	font-weight: bold;
+}
+
+
+input{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 60%;
+	height: 30px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+textarea{
+	width: 60%;
+	display: block;
+	margin-top: 5px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+#btn{
+	width: 12%;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #fdcb00;
+	border: 1px solid #fdcb00;
+
+	color: #fff;
+}
+
+/* FORMATAÇÃO DE RODAPÉ */
+
+.rodape{
+	padding: 30px 20px;
+	background-color: #fdcb00;
+}
+
+.logo-rodape{
+	width: 100%;
+	max-width: 250px;
+	display: block;
+	margin: 0 auto;
+}	
+	
+}
+
+@media(min-width: 1031px){
+
+/* FORMATAÇÃO DE CABEÇALHO */
+
+.cabecalho{
+	background-color: #fdcb00;
+	/* position: fixed; */
+}
+
+.logo img{
+	width: 100%;
+	max-width: 150px;
+}
+
+.caixa{
+	position: relative;
+	width: 	80%;
+	margin: 0 auto;
+}
+
+/* Formatação de menu */
+
+.btn-menu{
+	display: none;
+}
+
+.btn-close{
+	display: none;
+}
+
+#menu{
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+
+#menu li{
+	display: inline-block;
+	margin: 0 0 0 10px;
+}
+
+#menu a{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 5px;
+	transition: 0.5s;
+}
+
+#menu a:hover{
+	background-color: #000;
+	border-radius: 5px;
+}
+
+/* SOBRE  */
+
+.banner{
+	max-width: 100%;
+}
+
+.title{
+	margin: 0 auto;
+	text-align: center;
+	padding: 80px 0 20px 0 ;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fdcb00;
+	border-bottom: 1px #ccc solid;
+	width: 40%;
+    box-sizing: border-box;	
+}
+
+.sobre-descricao{
+	/* margin-top: 30px; */
+	margin: 50px 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #4d4d4f;
+}
+
+/* FORMATAÇÕES DE NOSSOS SERVIÇOS */
+
+.title-servicos{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #fdcb00;
+}
+
+.servicos{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.servicos  li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 80px 20px;
+	box-sizing: border-box;
+}
+
+.title-produto{
+	margin-top:  10px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #444444;
+}
+
+/* FORMATAÇÃO ONDE FOMOS DESTAQUE */
+
+.fomos-destaque{
+	background-color: #eeeeee;
+}
+
+.destaque{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+.jornal{
+	width: 100%;
+	max-width: 200px;
+}
+
+.fomos-destaque li{
+	display: inline-block;
+	text-align: center;
+	width: 18%;
+	margin: 0 0.8%;
+	vertical-align: top;
+	padding: 80px 20px;
+	box-sizing: border-box;	
+}
+
+/* FORMATAÇÃO DE FORM DE CONTATO */
+
+.fale-conosco{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 30px;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #444444;
+}
+
+.preencha-dados{
+	width: 80%;
+	margin: 0 auto;
+	color: #333333;
+}
+
+/* FORMTAÇÃO DO FORM */
+
+#form-contato {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+label{
+	font-weight: bold;
+}
+
+
+input{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 60%;
+	height: 30px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+textarea{
+	width: 60%;
+	display: block;
+	margin-top: 5px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+
+#btn{
+	width: 12%;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #fdcb00;
+	border: 1px solid #fdcb00;
+
+	color: #fff;
+}
+
+/* FORMATAÇÃO DE RODAPÉ */
+
+.rodape{
+	padding: 30px 20px;
+	background-color: #fdcb00;
+}
+
+.logo-rodape{
+	width: 100%;
+	max-width: 250px;
+	display: block;
+	margin: 0 auto;
+}	
+
+}
+
+.validaLabel{
+	color: red;
+}
+
+.valida{
+	border: 1px solid red;
+}
+
+

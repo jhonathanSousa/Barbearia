@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Barbearia Colombo</title>
+	<!-- Link do CSS -->
+	<link rel="stylesheet" href="Style/reset.css">
+	<link rel="stylesheet" type="text/css" href="Style/style.css">
+	<link rel="icon" href="favicon.png">
+	<!-- Link da Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- CRIAÇÃO DO CABEÇALHO -->
+	<header class="cabecalho">
+		<div class="caixa">
+			<h1 class="logo">
+				<img  src="Image/logo.png" alt="Barbearia Colombo">
+			</h1>
+			<button class="btn-menu"><i class="fas fa-bars fa-lg"></i></button>
+			<!-- CRIAÇÃO DE MENU -->
+			<nav id="menu">
+					<a href="" class="btn-close"><i class="fa fa-times"></i></a>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#servicos">Serviços</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- CONTEÚDO PRINCIPAL -->
+	<main>
+		<section class="banner">
+			<img class="banner" src="Image/banner.png" alt="Banner sobre a barbearia">
+		</section>
+		
+		<!-- CONTEÚDO SOBRE A BARBEARIA -->
+		<section class="sobre" id="sobre">
+			<h2 class="title">MUITO MAIS QUE UMA BARBEARIA SURPREENDA-SE</h2>
+			<p class="sobre-descricao">Fundado em 2001, o Garagem foi pioneiro em estética masculina no país. Esse segmento já é presente em vários países como EUA, Itália, Espanha, Alemanha, Japão, Uruguai, Chile e Argentina, entre outros. Temos como objetivo oferecer serviços específicos ao homem contemporâneo, procurando proporcionar excelentes resultados em um ambiente exclusivo voltado ao seu Bem-Estar.</p>
+		</section>
+
+		<section class="nossos-servicos" id="servicos">
+			<h2 class="title-servicos">NOSSOS SERVIÇOS  :</h2>
+			<ul class="servicos">
+				<li>
+					<img src="Image/Cabelo-Barba.png" alt="Cabelo e Barba">
+					<h3 class="title-produto">Cabelo e Barba</h3>
+				</li>
+
+				<li>
+					<img src="Image/LimpezaDePele.png" alt="Limpeza de pele">
+					<h3 class="title-produto">Limpeza de Pele</h3>
+				</li>
+
+				<li>
+					<img src="Image/Quimica-Capilar.png" alt="Quimica capilar">
+					<h3 class="title-produto">Quimica Capilar</h3>
+				</li>
+
+				<li>
+					<img src="Image/Bar.png" alt="Bar">
+					<h3 class="title-produto">Bar</h3>
+				</li>
+
+				<li>
+					<img src="Image/Sinuca.png" alt="Sinuca">
+					<h3 class="title-produto">Sinuca</h3>
+				</li>
+
+				<li>
+					<img src="Image/Videogame.png" alt="Video Game">
+					<h3 class="title-produto">Video Game</h3>
+				</li>
+			</ul>
+
+		</section>
+		
+		<section class="fomos-destaque" id="destaque">
+			<h2 class="title">Fomos Destaque Aqui</h2>
+
+			<ul class="destaque">
+				<li>
+					<img class="jornal" src=" Image/folha-sp.png" alt="Jornal Folha de SP">
+				</li>
+
+				<li>
+					<img class="jornal" src="Image/uol.png" alt="Uol">
+				</li>
+
+				<li>
+					<img class="jornal" src="Image/estadao.png" alt="Jornal Estadão ">
+				</li>
+
+				<li>
+					<img class="jornal" src="Image/forbes.png" alt="Forbes">
+				</li>
+
+				<li>
+					<img class="jornal" src="Image/valor-economico.png" alt="Jornal valor econômico">
+				</li>
+			</ul>
+		</section>
+
+		<!-- CONTATO -->
+		<section class="contato" id="contato">
+			<h2 class="title">CONTATO</h2>
+			<h3 class="fale-conosco">Fale Conosco</h3>
+			<!-- <p class="preencha-dados">Preencha corretamente os campos abaixo. Em breve retornaremos seu contato.</p> -->
+			<form action="" id="form-contato">
+
+				<label for="nome" id="nomeLabel">Nome (obrigatório)</label>
+				<input type="text" name="nome" id="nome">
+
+				<label for="email" id="emailLabel">E-mail (Obrigatório)</label>
+				<input type="email" name="email" id="email" placeholder="barbearia@gmail.com">
+
+				<label for="telefone" id="telefoneLabel">Telefone</label>
+				<input type="tel" name="telefone" id="telefone" placeholder="(99) 99999 - 9999"> 
+
+				<label for="assunto" id="assuntoLabel">Assunto</label>
+				<input type="text" name="assunto" id="assunto">
+
+				<label for="mensagem" id="mensagemLabel">Mensagem</label>
+				<textarea name="mensagem" cols="30" rows="10" id="mensagem"></textarea>
+
+				<input type="submit" id="btn" value="Enviar">
+			</form>
+		</section>
+	</main>
+
+	<!-- RODAPÉ -->
+	<footer class="rodape">
+		<img class="logo-rodape" src="Image/logo.png" alt="Barbearia Colombo">
+	</footer>
+
+	<!-- Link dos icones -->
+	<script src="https://kit.fontawesome.com/952f39baf0.js"></script>
+
+	<!-- Jquery -->
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+
+	<script src="script/menu.js"></script>﻿
+	<script src="script/ancoraAnimada.js"></script>
+	<script src="script/mascaraTelefone.js"></script>
+	<script src="script/form.js"></script>
+	
+
+</body>
+</html>
