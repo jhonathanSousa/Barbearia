@@ -5,6 +5,6 @@ Site  criado com o intuito de estudo e para uso como portfolio.
 - CSS3
 - Java Script
 
-# Frameworks utilizados :
+# Frameworks utilizados:
 
 - Jquery
